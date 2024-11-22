@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    border: 2px solid black ;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.heading h1{
+    line-height: 70px;
+}
+.images{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+#stone:hover,#paper:hover,#scissor:hover{
+    opacity: 0.7;
+
+}
+.winner{
+        /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.msg{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  margin-top: 50px;
+}
+.msg h2{
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    padding: 13px;
+}
+
